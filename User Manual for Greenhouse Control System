@@ -1,0 +1,46 @@
+User Manual for Greenhouse Control System
+
+Introduction:
+The Greenhouse Control System is designed to monitor and control environmental conditions within a greenhouse to optimize plant growth and health. This user manual provides instructions for setting up, operating, and maintaining the system.
+
+Table of Contents:
+
+System Overview
+Setup
+Operation
+Troubleshooting
+Maintenance
+
+1. System Overview:
+The Greenhouse Control System comprises the following components:
+
+Microcontroller (8051)
+Sensors:
+Temperature Sensor
+Gas (Methane) Sensor
+Moisture Sensor
+Actuators:
+Motor (for ventilation)
+Exhaust Fan
+Liquid Crystal Display (LCD) for displaying readings and system status
+
+2. Setup:
+Follow these steps to set up the Greenhouse Control System:
+
+Connect the sensors to the designated analog input pins of the microcontroller.
+Connect the motor and exhaust fan to the specified output pins of the microcontroller.
+Connect the LCD to the microcontroller for displaying readings and system status.
+Ensure all connections are secure and properly insulated.
+Power up the system using a suitable power source.
+3. Operation:
+Operating the Greenhouse Control System involves the following steps:
+
+The LCD displays real-time readings of temperature, gas (methane) level, moisture, and system statuses.
+The system continuously monitors environmental parameters to ensure optimal conditions for plant growth.
+Based on the sensor readings, the system controls the motor and exhaust fan as follows:
+If temperature and moisture levels are low, the motor is activated to provide ventilation.
+If moisture levels are high, the motor is stopped to prevent excessive humidity.
+If temperature is high and moisture is low, the motor is activated for airflow.
+If both temperature and moisture levels are high, the motor is stopped to prevent overheating.
+Gas detection activates the exhaust fan if methane levels exceed the predefined threshold.
+Users can monitor the system's operation and conditions through the LCD display.
